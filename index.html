@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="lab2.css">
+    <script defer src="loginform.js"></script>
+  </head>
+  <body>
+    <div class="login">
+      <form action="#" method="post" name="formName" id="formName" class="login__form" >
+        <!--username-->
+        <fieldset class="login__fieldset">
+          <label for="username" class="login__label">User Name</label>
+          <input type="text" id="username" name="username__field" class="login__textbox" />
+          <br>
+          <!--password-->
+          <label for="password" class="login__label">Password</label>
+          <input type="password" id="password" name="password__field" class="login__textbox" />
+        </fieldset>
+
+        <!--login button-->
+        <input type="submit" value="submit" class="login__button" name="login">Log In</button>
+      </form>
+
+      <div id="output" class="output">
+        <div id="output__text" class="output__text">
+          <h1>user name: <span id="uName" class="uName"></span></p>
+          <br>
+          <h1>password: <span id="passWord" class="passWord"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
